@@ -2,25 +2,27 @@
 :root {
   --main-color: #eaeaea;
   --stroke-color: black;
-  
+
 }
 /**/
 body {
   background: var(--main-color);
   font-size: 16px;
   height: 100%;
-width: 100%;
-padding: 60px 0 0 0;
-margin:0;
+  width: 100%;
+  padding: 60px 0 0 0;
+  margin:0;
 }
+
 h1 {
   margin: 100px auto;
   color: var(--stroke-color);
   font-family: 'Encode Sans Semi Condensed', Verdana, sans-serif;
-  font-size: 10rem; line-height: 10rem;
+  font-size: 1.7rem;
   font-weight: 200;
   text-align: center;
 }
+
 h2 {
   margin: 20px auto 0 auto;
   font-family: 'Encode Sans Semi Condensed', Verdana, sans-serif;
@@ -28,58 +30,83 @@ h2 {
   font-weight: 200;
   text-align: center;
 }
+
 h1, h2 {
   -webkit-transition: opacity 0.5s linear, margin-top 0.5s linear; /* Safari */
   transition: opacity 0.5s linear, margin-top 0.5s linear;
 }
+
 #main {
-font-size: 1.2rem;
-background-color: rgb(255, 255, 255);
-border-radius: 16px;
-box-shadow: 0px 18px 24px rgba(0, 0, 0, 0.06);
-margin: 0 auto;
-max-width: 330px;
-width: 100%;
-padding: 2rem;
-text-align: center;
+  font-size: 1.2rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 16px;
+  box-shadow: 0px 18px 24px rgba(0, 0, 0, 0.06);
+  margin: 0 auto;
+  max-width: 330px;
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
 }
+
+#page {
+  font-size: 1rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 16px;
+  box-shadow: 0px 18px 24px rgba(0, 0, 0, 0.06);
+  margin: 0 auto;
+  max-width: 900px;
+  width: 100%;
+  padding: 2rem;
+}
+
 .avatarContainer {
     display: flex;
     justify-content: center;
     margin: 0;
 }
+
 .avatar {
 	border-radius: 100%;
-width: 64px;
-height: 64px;
+  width: 64px;
+  height: 64px;
 }
+
 .motto {
-font-size: 1rem;
-color: rgb(102, 102, 102);
-text-align: center;
+  font-size: 1rem;
+  color: rgb(102, 102, 102);
+  text-align: center;
 }
+
+h2 a {
+  color: var(--stroke-color);
+  text-decoration: none;
+}
+
 a.button {
-color: rgb(255, 255, 255);
-border-radius: 32px;
-display: block;
-width: 60%;
-box-sizing: border-box;
-text-decoration: none;
-font-weight: bold;
-text-align: center;
-padding: 12px 8px;
-margin: 0 auto;
+  color: rgb(255, 255, 255);
+  border-radius: 32px;
+  display: block;
+  width: 60%;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px 8px;
+  margin: 0 auto;
 }
+
 .telegram {
-background-color: rgb(50, 175, 237);
+  background-color: rgb(50, 175, 237);
 }
+
 .matrix {
-background-color: rgb(13, 189, 139);
+  background-color: rgb(13, 189, 139);
 }
+
 .twitter {
-background-color: rgb(29, 161, 242);
+  background-color: rgb(29, 161, 242);
 }
+
 .github {
-background-color: #24292e;
+  background-color: #24292e;
 }
-		
