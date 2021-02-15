@@ -43,7 +43,6 @@ h1, h2 {
   box-shadow: 0px 18px 24px rgba(0, 0, 0, 0.06);
   margin: 0 auto;
   max-width: 330px;
-  width: 100%;
   padding: 2rem 2rem 0.5em 2rem;
   text-align: center;
 }
@@ -55,7 +54,6 @@ h1, h2 {
   box-shadow: 0px 18px 24px rgba(0, 0, 0, 0.06);
   margin: 0 auto;
   max-width: 900px;
-  width: 100%;
   padding: 2rem 2rem 0.5em 2rem;
 }
 
