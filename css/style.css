@@ -37,14 +37,14 @@ h1, h2 {
 }
 
 #main {
-  font-size: 1.2rem;
+  font-size: 1rem;
   background-color: rgb(255, 255, 255);
   border-radius: 16px;
   box-shadow: 0px 18px 24px rgba(0, 0, 0, 0.06);
   margin: 0 auto;
   max-width: 330px;
   width: 100%;
-  padding: 2rem;
+  padding: 2rem 2rem 0.5em 2rem;
   text-align: center;
 }
 
@@ -56,7 +56,7 @@ h1, h2 {
   margin: 0 auto;
   max-width: 900px;
   width: 100%;
-  padding: 2rem;
+  padding: 2rem 2rem 0.5em 2rem;
 }
 
 .avatarContainer {
@@ -75,6 +75,13 @@ h1, h2 {
   font-size: 1rem;
   color: rgb(102, 102, 102);
   text-align: center;
+}
+
+.footer a {
+  font-size: 0.9rem;
+  color: rgb(102, 102, 102);
+  text-align: center;
+  text-decoration: underline;
 }
 
 h2 a {
